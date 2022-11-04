@@ -1,0 +1,64 @@
+{
+    "name": "Prueba de pwa",
+    "short_name": "pwa",
+    "description": "un ejemplo de como hacer una pwa",
+    "background_color": "#A569BD",
+    "theme_color": "#138D75",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+        {
+            "src": "img/iconos/icono.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono2.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono3.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono4.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono5.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono6.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono7.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono8.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono9.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "img/iconos/icono10.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+#fondo-app
+{
+    
+    margin: 0;
+    padding: 0;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poor Story', cursive;
+    background: linear-gradient(orange, tomato);
+}
+
+.header
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 40px;
+}

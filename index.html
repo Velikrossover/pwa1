@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/iconos/icono.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    
+    <title>Aplicacion web progresiva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src=""></script>
+</head>
+<body id="fondo-app">
+    <center>
+    <header>
+        <h1>Aplicacion web progresiva</h1>
+        <p>Bienvenidos ostras</p>
+    </header>
+    </center>   
+    <div align="center">
+        <form action="" method="post">
+            <label>Nombre:</label> 
+            <input type="text" name="name_control" autofocus required />
+            <br/>
+            <label>Contraseña:</label> 
+            <input type="password" name="pass_control" required />
+            <br/>
+            <label>Correo Electrónico:</label>
+            <input type="email" name="email_control" required />
+            <br/>
+            <label>URL:</label>
+            <input type="url" name="url_control" placeholder="Escripe la URL de tu página web personal" />
+            <br/>
+            <label>Fecha:</label>
+            <input type="date" name="date_control" />
+            <br/>
+            <label>Tiempo:</label>
+            <input type="time" name="time_control" />
+            <br/>
+            <label>Número (min -10, max 10):</label>
+            <input type="number" name="number_control" min="-10" max="10" value="0" />
+            <br/>
+            <label>Teléfono:</label>
+            <input type="tel" name="tel_control" />
+            <br/>
+            <label>Término de búsqueda:</label>
+            <input type="search" name="search_control" />
+            <br />
+            <label>Color Favorito:</label>
+            <input type="color" name="color_control" />
+            <br />
+            <label>Sistema operativo:</label>
+            <select name="sistema_control">
+                    <option value="windows">Windows</option>
+                    <option value="linux">Linux</option>
+                    <option value="macos">Macos</option>
+            </select>
+            <br/>
+            <label>Que lenguaje de programación web conoces?</label>
+            <input name="lenguaje_control" type="checkbox" value="html5" checked /> Html5
+            <input name="lenguaje_control" type="checkbox" value="ccs3" checked /> Css3
+            <input name="lenguaje_control" type="checkbox" value="javascript"/> JavaScript
+            <input name="lenguaje_control" type="checkbox" value="php"/> Php
+            <input name="lenguaje_control" type="checkbox" value="python"/> Python
+            <br/>
+            <label>Sabes utilizar Python?</label>
+
+            <input name="python_control" type="radio"  value="si" checked /> Si
+            <input name="python_control" type="radio" value="no" /> No
+            <br/>
+                <label>Comentarios:</label>
+                    <textarea name="comentario_control" rows="4" cols="50"></textarea>
+            <br/>
+            <br/>
+            <input type="submit" value="Submit!">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
